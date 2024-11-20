@@ -92,17 +92,26 @@ header nav{
     margin-top: 80px;
 }
 .imagenes{
-    columns: 5 260px;
+    columns: 6 238px;
     margin: auto;
 }
+/* .imagenes{
+    columns: 5 289px;
+    margin: auto;
+} */
 .card-image{
     position: relative;
     padding: 6px;
 }
+/* .card-image img{
+    border-radius: 15px;
+    min-width: 269px;
+    max-width: 269px;
+} */
 .card-image img{
     border-radius: 15px;
-    min-width: 240px;
-    max-width: 240px;
+    min-width: 228px;
+    max-width: 228px;
 }
 .card-image:hover > :first-child{
     filter: brightness(60%);
@@ -130,7 +139,7 @@ header nav{
 .oculto1{
     position: absolute;
     left: 60%;
-    bottom: 8px;
+    bottom: 20px;
     background-color: white;
     font-size: 30px;
     border-radius: 50px;
